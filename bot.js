@@ -8,6 +8,9 @@ client.on("messageCreate", async ctx => {
   if (message.content === "walter") {
     message.reply("walter");
   }
+  if (message.content == "i like fire trucks and monster trucks"){
+    message.reply("https://c8.alamy.com/comp/C3MNXD/new-york-fire-department-fire-truck-engine-7-manhattan-C3MNXD.jpg")
+  }
 });
 
 (async () => {
