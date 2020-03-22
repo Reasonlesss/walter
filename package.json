@@ -1,0 +1,15 @@
+{
+  "name": "Walter_Clements",
+  "version": "1.0.0",
+  "description": "walter.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "detritus-client": "^0.10.1"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
