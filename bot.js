@@ -1,6 +1,7 @@
 const { ShardClient } = require("detritus-client");
+const config = require("./config.json")
 
-const client = new ShardClient(process.env.TOKEN);
+const client = new ShardClient(config.token);
 
 client.on("messageCreate", async ctx => {
   const { message } = ctx;
