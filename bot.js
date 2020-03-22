@@ -5,6 +5,9 @@ const client = new ShardClient(config.token);
 
 client.on("messageCreate", async ctx => {
   const { message } = ctx;
+  if (message.author.bot) {
+    return;
+  }
   if (message.content === "walter") {
     message.reply("walter");
   }
