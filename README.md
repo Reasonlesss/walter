@@ -3,7 +3,7 @@
 Walter Clements Discord Bot
 powered by detritusjs
 
-Replies with "walter" to every message containing "walter".
+Replies with "walter" to every message saying "walter" (exactly).
 
 [Live Demo](https://discordapp.com/oauth2/authorize?client_id=691271295987351562&permissions=0&scope=bot)
 
